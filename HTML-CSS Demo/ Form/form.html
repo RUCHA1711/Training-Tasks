@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="html_form">
+        <form>
+            <div class="row">
+                <div class="col">
+                    <label for="name">Name:</label>
+                </div>
+            </div>
+            <div class="inputs">
+                <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="off">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="email">Email:</label>
+                </div>
+            </div>
+            <div class="inputs">
+                <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="off">
+            </div>
+            <div class="col">
+                <label for="number">Mobile no:</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="number" name="number" placeholder="Enter your mobile no.">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="gender">Gender:</label>
+                </div>
+            </div>
+            <div class="inputs">
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="hobby">Hobby:</label>
+                </div>
+            </div>
+            <div class="inputs">
+                <input type="checkbox" id="sports" name="sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="reading" name="reading">
+                <label for="reading">Reading</label>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="country">Country:</label>
+                </div>
+            </div>
+            <div class="inputs">
+                <select id="country" name="country">
+                    <option value="india">India</option>
+                    <option value="australia">Australia</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="date">Select date: </label>
+                </div>
+            </div>
+            <div class="inputs">
+                <input type="date" id="date" name="date">
+            </div>
+            <!-- <div class="row">
+                <div class="col">
+                    <label for="file">Select a file:</label>
+                </div>
+            </div>
+            <div class="inputs">
+                <input type="file" id="file" name="file"><br>
+            </div> -->
+        
+            <input type="submit" id="submit" name="submit">
+        </form>
+    </div>
+</body>
+
+</html>
